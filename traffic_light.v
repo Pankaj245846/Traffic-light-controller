@@ -112,5 +112,5 @@ begin
  if(count == 3) // for testbench
   count <= 0;
 end
- assign clk_enable = count==3 ? 1: 0; // 50,000,000 for 50MHz running on FPGA
+ assign clk_enable = count==3 ? 1: 0; // 50,000,000 for 50MHz 
 endmodule 
